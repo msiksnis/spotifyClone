@@ -2,17 +2,17 @@
   color: grey;
   height: 40px;
   cursor: pointer;
-  transition: 150ms color ease-in;
+  transition: 200ms color ease-in;
   display: flex;
   align-items: center;
 }
 
 .sidebarOption:hover {
   color: white;
+  border-left: 3px solid #040404;
 }
 
 .sidebarOption__icon {
-  /* color: greenyellow; */
   padding-left: 10px;
   padding-right: 10px;
 }
